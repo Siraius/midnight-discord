@@ -17,10 +17,11 @@
 /* customize things here */
 :root {
 	/* font, change to 'gg sans' for default discord font*/
-	--font: 'figtree';
+	/*--font: 'figtree';*/
+	--font: 'gg sans';
 
 	/* top left corner text */
-	--corner-text: 'Midnight';
+	--corner-text: 'Khyrian';
 
 	/* color of status indicators and window controls */
 	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
@@ -49,7 +50,8 @@
 	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
 	--bg-2: hsl(220, 15%, 16%); /* dark buttons */
 	--bg-3: hsl(220, 15%, 13%); /* spacing, secondary elements */
-	--bg-4: hsl(220, 15%, 10%); /* main background color */
+	/*--bg-4: hsl(220, 15%, 10%); /*main background color */
+	--bg-4: hsl(202, 40%, 25%);
 	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
 	--active: hsla(220, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
 	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
